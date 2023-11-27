@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license               = { :type => 'MIT', :file => 'LICENSE' }
   s.author                = { 'Amazon' => 'aps-github@amazon.com' }
   s.ios.deployment_target = '12.5'
-  s.source                = { :tag => "v#{s.version}" }
+  s.source                = {:git => "https://github.com/ketchappgames/Amazon-SDK-Plugin.git", :tag => "v#{s.version}" }
   s.source_files          = '*.{h,m,mm}'
   
   s.dependency 'AmazonPublisherServicesSDK'
